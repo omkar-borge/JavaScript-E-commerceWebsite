@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrightCart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href=" ../css/cart.css" />
+  </head>
+  <body>
+    <header class="header-items">
+      <img
+        class="logo hover-header-items"
+        src="../images\logo.png"
+        alt="logo"
+      />
+      <div class="search-bar">
+        <select name="Categories" class="select-option">
+          <option value="All Categories">All</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Furniture">Furniture</option>
+          <option value="Clothing & Accessories">Clothing & Accessories</option>
+        </select>
+        <input
+          class="search-input"
+          type="text"
+          placeholder="Search BrightCart.in"
+        />
+        <div class="search-icon search-hover">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="user-login hover-header-items hover-bgcolor">
+        <i class="fa-solid fa-user"> </i>
+        <span class="user-login-text">Login</span>
+      </div>
+      <div class="shopping-cart hover-header-items hover-bgcolor">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count">0</span>
+      </div>
+    </header>
+    <main>
+      <div class="cart">
+        <div class="shoping-cart"></div>
+        <div class="shoping-cart-price-details"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="foot">
+          <div class="aboutus" style="color: white">
+            <b style="color: grey">About us</b>
+            <a>Contact</a>
+            <a>About us</a>
+
+            <a>Press</a>
+            <a>Cleartrip</a>
+            <a>Corporate information</a>
+          </div>
+          <div class="help" style="color: white">
+            <b style="color: grey">Help</b>
+            <a>Payments</a>
+            <a>Shipping</a>
+            <a>Cancellation & Returns</a>
+            <a>FAQ</a>
+            <a>Report</a>
+          </div>
+          <div class="consumerpolicy" style="color: white">
+            <b style="color: grey">Consumer Policy</b>
+            <a>Cancellation & Return</a>
+            <a>Terms of use</a>
+            <a>Security</a>
+            <a>Privacy</a>
+            <a>Sitemap</a>
+            <a>ERP Compliance</a>
+          </div>
+          <div class="social" style="color: white">
+            <b style="color: grey">Social</b>
+            <a>Facebook</a>
+            <a>Twitter</a>
+            <a>YouTube</a>
+          </div>
+        </div>
+        <div class="endfoot">
+          <a
+            ><i class="fa-solid fa-store" style="color: goldenrod"></i> Become a
+            seller</a
+          >
+          <a
+            ><i class="fa-brands fa-adversal" style="color: goldenrod"></i>
+            Advertise</a
+          >
+          <a
+            ><i class="fa-solid fa-gift" style="color: goldenrod"></i>
+            Giftcards</a
+          >
+          <a
+            ><i
+              class="fa-solid fa-handshake-angle"
+              style="color: goldenrod"
+            ></i>
+            Help centers</a
+          >
+          <div class="card"></div>
+        </div>
+      </div>
+    </footer>
+    <script src="../data/items.js"></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/cart.js"></script>
+  </body>
+</html>
